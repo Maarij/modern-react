@@ -1,6 +1,6 @@
 import {createSlice} from "@reduxjs/toolkit";
 
-const formSlice = createSlice ( {
+const formSlice = createSlice({
     name: 'form',
     initialState: {
         name: '',
@@ -16,5 +16,5 @@ const formSlice = createSlice ( {
     }
 });
 
-export const { changeName, changeCost } = formSlice.actions;
+export const {changeName, changeCost} = formSlice.actions;
 export const formReducer = formSlice.reducer;
